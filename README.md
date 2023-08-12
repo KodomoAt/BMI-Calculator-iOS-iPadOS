@@ -23,8 +23,10 @@ This iOS application calculates the Body Mass Index (BMI) of the user based on t
 2. Input your height and weight using the user-friendly interface
 3. Press the "Calculate BMI" button
 4. View your results with the corresponding BMI category
-5. Save your results and track your progress over time (In Progress)
-6. Set reminders for regular BMI checks to maintain a healthy lifestyle (In Progress)
+<span style="color:red">
+5. :hourglass_flowing_sand: Save your results and track your progress over time (In Progress)
+6. :hourglass_flowing_sand: Set reminders for regular BMI checks to maintain a healthy lifestyle (In Progress)
+</span>
 
 ## Technologies Used
 
