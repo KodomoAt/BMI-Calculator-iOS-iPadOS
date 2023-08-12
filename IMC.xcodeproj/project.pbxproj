@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AD0B9F9B230D64B30065EFD9 /* BMI-Calculator-LayoutPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI-Calculator-LayoutPractice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0B9F9B230D64B30065EFD9 /* IMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0B9F9E230D64B30065EFD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD0B9FA0230D64B30065EFD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AD0B9FA7230D64B50065EFD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		AD0B9F9C230D64B30065EFD9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AD0B9F9B230D64B30065EFD9 /* BMI-Calculator-LayoutPractice.app */,
+				AD0B9F9B230D64B30065EFD9 /* IMC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,9 +106,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AD0B9F9A230D64B30065EFD9 /* BMI-Calculator-LayoutPractice */ = {
+		AD0B9F9A230D64B30065EFD9 /* IMC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AD0B9FAF230D64B50065EFD9 /* Build configuration list for PBXNativeTarget "BMI-Calculator-LayoutPractice" */;
+			buildConfigurationList = AD0B9FAF230D64B50065EFD9 /* Build configuration list for PBXNativeTarget "IMC" */;
 			buildPhases = (
 				AD0B9F97230D64B30065EFD9 /* Sources */,
 				AD0B9F98230D64B30065EFD9 /* Frameworks */,
@@ -118,9 +118,9 @@
 			);
 			dependencies = (
 			);
-			name = "BMI-Calculator-LayoutPractice";
+			name = IMC;
 			productName = "BMI-Calculator-LayoutPractice";
-			productReference = AD0B9F9B230D64B30065EFD9 /* BMI-Calculator-LayoutPractice.app */;
+			productReference = AD0B9F9B230D64B30065EFD9 /* IMC.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,7 +138,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AD0B9F96230D64B30065EFD9 /* Build configuration list for PBXProject "BMI-Calculator-LayoutPractice" */;
+			buildConfigurationList = AD0B9F96230D64B30065EFD9 /* Build configuration list for PBXProject "IMC" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -151,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AD0B9F9A230D64B30065EFD9 /* BMI-Calculator-LayoutPractice */,
+				AD0B9F9A230D64B30065EFD9 /* IMC */,
 			);
 		};
 /* End PBXProject section */
@@ -327,10 +327,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LT48CS3HB9;
 				INFOPLIST_FILE = "BMI-Calculator-LayoutPractice/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = IMC;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = pro.staub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -345,10 +347,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LT48CS3HB9;
 				INFOPLIST_FILE = "BMI-Calculator-LayoutPractice/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = IMC;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = "";
+				"MARKETING_VERSION[sdk=iphoneos*]" = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = pro.staub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -359,7 +364,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AD0B9F96230D64B30065EFD9 /* Build configuration list for PBXProject "BMI-Calculator-LayoutPractice" */ = {
+		AD0B9F96230D64B30065EFD9 /* Build configuration list for PBXProject "IMC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AD0B9FAD230D64B50065EFD9 /* Debug */,
@@ -368,7 +373,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD0B9FAF230D64B50065EFD9 /* Build configuration list for PBXNativeTarget "BMI-Calculator-LayoutPractice" */ = {
+		AD0B9FAF230D64B50065EFD9 /* Build configuration list for PBXNativeTarget "IMC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AD0B9FB0230D64B50065EFD9 /* Debug */,
