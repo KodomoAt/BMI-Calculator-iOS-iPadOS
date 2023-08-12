@@ -15,6 +15,7 @@
 		AD64359C2312D0DA00E22B00 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD64359B2312D0DA00E22B00 /* README.md */; };
 		F02523A22A87D0B6001C30C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F02523A02A87D0B6001C30C1 /* Main.storyboard */; };
 		F02523A52A87D1B6001C30C1 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02523A42A87D1B6001C30C1 /* CalculatorBrain.swift */; };
+		F02523A72A87D217001C30C1 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02523A62A87D217001C30C1 /* BMI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AD64359B2312D0DA00E22B00 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F02523A12A87D0B6001C30C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../../../../../../../Desktop/BMI-Calculator-iOS13-LayoutPractice/BMI-Calculator-LayoutPractice/Views/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		F02523A42A87D1B6001C30C1 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalculatorBrain.swift; path = "../../../../../../../../../../Desktop/BMI-Calculator-iOS13-LayoutPractice/BMI-Calculator-LayoutPractice/Models/CalculatorBrain.swift"; sourceTree = "<group>"; };
+		F02523A62A87D217001C30C1 /* BMI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BMI.swift; path = "../../../../../../../../../../Desktop/BMI-Calculator-iOS13-LayoutPractice/BMI-Calculator-LayoutPractice/Models/BMI.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		F02523A32A87D13E001C30C1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F02523A62A87D217001C30C1 /* BMI.swift */,
 				F02523A42A87D1B6001C30C1 /* CalculatorBrain.swift */,
 			);
 			path = Models;
@@ -169,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F02523A72A87D217001C30C1 /* BMI.swift in Sources */,
 				AD0B9FA3230D64B30065EFD9 /* ViewController.swift in Sources */,
 				AD0B9F9F230D64B30065EFD9 /* AppDelegate.swift in Sources */,
 				F02523A52A87D1B6001C30C1 /* CalculatorBrain.swift in Sources */,
