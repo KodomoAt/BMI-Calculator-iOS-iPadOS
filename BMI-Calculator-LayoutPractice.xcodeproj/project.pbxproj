@@ -16,6 +16,7 @@
 		F02523A52A87D1B6001C30C1 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02523A42A87D1B6001C30C1 /* CalculatorBrain.swift */; };
 		F02523A72A87D217001C30C1 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02523A62A87D217001C30C1 /* BMI.swift */; };
 		F02523A92A87D554001C30C1 /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02523A82A87D554001C30C1 /* CalculateViewController.swift */; };
+		F02523AB2A87D722001C30C1 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02523AA2A87D722001C30C1 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F02523A42A87D1B6001C30C1 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalculatorBrain.swift; path = "../../../../../../../../../../Desktop/BMI-Calculator-iOS13-LayoutPractice/BMI-Calculator-LayoutPractice/Models/CalculatorBrain.swift"; sourceTree = "<group>"; };
 		F02523A62A87D217001C30C1 /* BMI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BMI.swift; path = "../../../../../../../../../../Desktop/BMI-Calculator-iOS13-LayoutPractice/BMI-Calculator-LayoutPractice/Models/BMI.swift"; sourceTree = "<group>"; };
 		F02523A82A87D554001C30C1 /* CalculateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalculateViewController.swift; path = "../../../../../../../../../../Desktop/BMI-Calculator-iOS13-LayoutPractice/BMI-Calculator-LayoutPractice/Controllers/CalculateViewController.swift"; sourceTree = "<group>"; };
+		F02523AA2A87D722001C30C1 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = "../../../../../../../../../../Desktop/BMI-Calculator-iOS13-LayoutPractice/BMI-Calculator-LayoutPractice/Controllers/ResultViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				F02523A82A87D554001C30C1 /* CalculateViewController.swift */,
+				F02523AA2A87D722001C30C1 /* ResultViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				F02523A52A87D1B6001C30C1 /* CalculatorBrain.swift in Sources */,
 				AD0B9FA1230D64B30065EFD9 /* SceneDelegate.swift in Sources */,
 				F02523A92A87D554001C30C1 /* CalculateViewController.swift in Sources */,
+				F02523AB2A87D722001C30C1 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
